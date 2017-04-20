@@ -1,0 +1,22 @@
+{
+    "name": "wprk/pivotal-tracker-sdk",
+    "description": "A library to communicate with Pivotal Tracker v5 API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Parker",
+            "email": "will@wipar.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": ">=6.2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "PivotalTracker": "src/"
+        }
+    }
+}
