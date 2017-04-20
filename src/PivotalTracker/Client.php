@@ -9,9 +9,7 @@ abstract class Client
     protected $token;
     protected $client;
     protected $queryParameters = [];
-    protected $defaultQueryParameters = [
-        'limit' => 10
-    ];
+    protected $defaultQueryParameters = [];
 
     abstract protected function apiPath();
     abstract protected function buildClient();
